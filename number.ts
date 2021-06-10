@@ -12,7 +12,7 @@ let octal: number = 0o744;
 console.log(octal);
 
 let notANumber: number = NaN;
-console.log(noANumber);
+console.log(notANumber);
 
 let underscoreNum: number = 1_000_000;
 console.log(underscoreNum);
