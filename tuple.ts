@@ -8,3 +8,5 @@ x = ["hello", 33];
 
 // Tuple로 지정
 const person: [string, number] = ["mark", 33];
+
+// const [first, second, third] = person; // 3번째 인자를 받도록 설정을 안해주었기 때문에 Error
