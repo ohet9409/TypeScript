@@ -6,7 +6,4 @@ var sym = Symbol();
 var obj = (_a = {},
     _a[sym] = "value",
     _a);
-// 에러발생
-// sym = "aa"
-// console.log(sym );
 console.log(obj[sym]);
