@@ -10,10 +10,12 @@ console.log(any1);
 // console.log(d); 
 function leakingAny(obj) {
     var a = obj.num;
+    // 중간에 any를 타입을 재정의
+    // const a: number = obj.num;
     var b = a + 1;
     return b;
 }
 var c = leakingAny({ num: 0 });
 console.log(c);
-var d1 = c.indexOf("0");
+c.indexOf("0");
 console.log(d1);
